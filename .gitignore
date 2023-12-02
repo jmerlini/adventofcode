@@ -1,0 +1,17 @@
+### Apple ###
+.AppleDouble
+.DS_Store
+
+### IDE ###
+## VS Code ##
+.vscode/*
+!.vscode/settings.json
+!.vscode/launch.json
+
+## SublimeText ##
+*.sublime-project
+*.sublime-settings
+*.sublime-workspace
+*/*/mm.log
+*mm-*.log
+*mm.log
