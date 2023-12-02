@@ -5,10 +5,11 @@ colors = [
     'green',
     'blue'
 ]
+
+
 def parse_file(file):
     with open(file) as f:
         lines = f.readlines()
-
     return lines
 
 

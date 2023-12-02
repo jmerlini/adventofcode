@@ -10,7 +10,6 @@ total_balls = {
 def parse_file(file):
     with open(file) as f:
         lines = f.readlines()
-
     return lines
 
 
@@ -19,7 +18,6 @@ def is_game_valid(game):
         pattern = '(\d+) ' + color
         if max([int(x) for x in re.findall(r'' + pattern, game)]) > total_balls[color]:
             return False
-
     return True
 
 
